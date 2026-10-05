@@ -1,4 +1,5 @@
 # [4] Essaie avec 4 repetitions
+# Pov: Il marche pas
 definir tourner_droite:
     tourner_gauche
     tourner_gauche
