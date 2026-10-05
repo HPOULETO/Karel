@@ -3,3 +3,15 @@
 avancer 
 avancer
 poser_balise
+definir tourner_droite:
+    tourner_gauche
+    tourner_gauche
+    tourner_gauche
+tourner_droite
+avancer
+avancer
+poser_balise
+tourner_droite
+avancer
+avancer
+poser_balise
