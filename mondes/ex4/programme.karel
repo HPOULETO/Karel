@@ -4,7 +4,7 @@ definir tourner_droite:
     tourner_gauche
     tourner_gauche
 
-repeter 3 fois:
+repeter 4 fois:
     tant que devant_libre:
         avancer
     tourner_gauche
