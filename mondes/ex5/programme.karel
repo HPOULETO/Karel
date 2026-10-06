@@ -1,1 +1,10 @@
 # Exercice 5 : aller chercher le journal et rentrer, face à l’est
+tant que pas balise_ici:
+    avancer  
+ramasser_balise
+tourner_gauche
+tourner_gauche
+tant que devant_libre:
+    avancer
+tourner_gauche
+tourner_gauche
