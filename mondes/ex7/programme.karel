@@ -1,5 +1,33 @@
-# Projet : Karel le jardinier
-tant que devant_libre:
-    avancer
-    si balise_ici:
-        ramasser_balise
+# Projet : Karel le connard
+definir tourner_droite:
+    tourner_gauche
+    tourner_gauche
+    tourner_gauche
+definir tout_ramasser_sur_une_ligne_connard_et_fait_pas_chier:
+    tant que devant_libre:
+        avancer
+        tant que balise_ici:
+            ramasser_balise
+
+definir ligne_changer:
+    si regarde_est:
+        si gauche_libre:
+            tourner_gauche
+            avancer
+            tant que balise_ici:
+                ramasser_balise
+            tourner_gauche
+    sinon:
+        si droite_libre:
+            tourner_droite
+            avancer
+            tant que balise_ici:
+                ramasser_balise
+            tourner_droite
+
+repeter 5 fois:
+    tout_ramasser_sur_une_ligne_connard_et_fait_pas_chier
+    ligne_changer
+
+
+
