@@ -4,9 +4,9 @@ definir tourner_droite:
     tourner_gauche
     tourner_gauche
 definir tout_ramasser_sur_une_ligne_connard_et_fait_pas_chier:
+    tant que balise_ici:
+        ramasser_balise
     tant que devant_libre:
-        tant que balise_ici:
-            ramasser_balise
         avancer
         tant que balise_ici:
             ramasser_balise
@@ -32,9 +32,13 @@ definir aller_dans_un_coin:
     tant que pas regarde_sud:
         tourner_gauche
     tant que devant_libre:
+        tant que balise_ici:
+            ramasser_balise
         avancer
     tourner_droite
     tant que devant_libre:
+        tant que balise_ici:
+            ramasser_balise
         avancer
     tant que pas regarde_est:
         tourner_gauche
